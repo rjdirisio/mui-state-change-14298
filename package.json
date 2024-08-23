@@ -1,0 +1,79 @@
+{
+  "name": "mui-state-change-14298",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/lab": "^5.0.0-alpha.173",
+    "@mui/material": "^5.16.7",
+    "@mui/x-data-grid-premium": "^7.13.0",
+    "@mui/x-tree-view": "^7.13.0",
+    "@rollup/rollup-linux-x64-gnu": "^4.21.0",
+    "@tanstack/react-query": "^5.51.24",
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/d3": "^7.4.3",
+    "@types/mui-image": "^1.0.5",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autosuggest-highlight": "^3.3.4",
+    "d3": "^7.9.0",
+    "env-cmd": "^10.1.0",
+    "jsfive": "^0.3.14",
+    "molstar": "^4.5.0",
+    "mui-image": "^1.0.7",
+    "pako": "^2.1.0",
+    "plotly.js": "^2.34.0",
+    "re-resizable": "^6.9.17",
+    "react": "^18.3.1",
+    "react-color": "^2.19.3",
+    "react-dom": "^18.3.1",
+    "react-plotly.js": "^2.6.0",
+    "react-router-dom": "^6.26.1",
+    "react-use": "^17.5.1",
+    "react-virtualized-auto-sizer": "^1.0.24",
+    "react-window": "^1.8.10",
+    "sass": "^1.77.8",
+    "vite": "^5.4.1",
+    "web-vitals": "^4.2.3"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "build:prod": "env-cmd -f .env.prod vite build",
+    "serve": "vite preview",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "test": "vite test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "optionalDependencies": {
+    "@types/autosuggest-highlight": "^3.2.3",
+    "@types/node": "^22.4.1",
+    "@types/react": "^18.3.3",
+    "husky": "^9.1.4",
+    "pretty-quick": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
