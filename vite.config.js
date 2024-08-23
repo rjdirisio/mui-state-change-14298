@@ -9,14 +9,14 @@ export default defineConfig(() => {
     define: {
       "process.env": process.env,
     },
-    plugins: [
-      react({
-        jsxImportSource: "@emotion/react",
-        babel: {
-          plugins: ["@emotion/babel-plugin"],
-        },
-      }),
-    ],
+    // plugins: [
+    //   react({
+    //     jsxImportSource: "@emotion/react",
+    //     babel: {
+    //       plugins: ["@emotion/babel-plugin"],
+    //     },
+    //   }),
+    // ],
     server: {
       open: true,
     },
@@ -24,8 +24,8 @@ export default defineConfig(() => {
     optimizeDeps: {
       include: [
         // "@mui/material/Tooltip",
-        "@emotion/styled",
-        "@emotion/react",
+        // "@emotion/styled",
+        // "@emotion/react",
         // "@mui/material/Unstable_Grid2",
         // "@mui/icons-material",
       ],
